@@ -9,37 +9,19 @@
 </head>
 <body>
     <header><!--Logo y  apartado registrarse o iniciar sesion carrito compra.-->
-        <a href="index.html"><img src="img/logo.png"></a>
-        <input type="button" value="Iniciar sesión" id="destacado"> 
-        <input type="button" value="Registrarse" id="destacado">
-        <button id="carrito" type="button" >
-            <img src="img/carrito3.png" alt="Carrito" width="40" height="40">
-            
-        </button>
-        <br>
-        <hr>
-        <nav id="nav">
-            <details>
-            <summary>Hombre</summary>
-            <ul>
-                <li><a href="camisetas.html">Camisetas</a></li>
-                <li><a href="sudaderas.html">Sudaderas</a></li>
-            </ul>
-            </details>
-            <details>
-                    <summary>Mujer</summary>
-                    <ul>
-                        <li><a href="pantalones.html">Pantalones</a></li>
-                    </ul>
-                    </details>
-            <details>
-                    <summary>Niño</summary>
-                    <ul>
-                        <li><a href="Zapatillas.html">Zapatillas</a></li>
-                    </ul>
-            </details>
-        </nav>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><a href="index.html"><img src="img/logo.png"></a></label>
         
+        <nav>
+            <ul class="menu">
+                <li><a href="hombre.html" class="btn">Hombre</a></li>
+                <li><a href="mujer.html" class="btn">Mujer</a></li>
+                <li><a href="niño.html" class="btn">Niño</a></li>
+                <li><a href="Zapatillas.html" class="btn">Zapatillas</a></li>
+                <li><a href="user.html" class="btn"><img src="img/user.png"></a></li>
+                <li><a href="carrito.html" class="btn"><img src="img/carrito.png"></a></li>
+            </ul>
+        </nav>            
     </header>
     <main>
         <h2>CONTACTO</h2>
@@ -80,4 +62,10 @@
             </address>
         </article>
     </main>
+    <hr>
+    <footer>
+        <article class="mainimg">
+            <img src="img/logo.png">
+        </article>
+    </footer>
     </body>

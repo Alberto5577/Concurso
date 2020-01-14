@@ -8,59 +8,50 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <header><!--Logo y  apartado registrarse o iniciar sesion carrito compra.-->
-        <a href="index.html"><img src="img/logo.png"></a>
-        <input type="button" value="Iniciar sesión" id="destacado"> 
-        <input type="button" value="Registrarse" id="destacado">
-        <button id="carrito" type="button" >
-            <img src="img/carrito3.png" alt="Carrito" width="40" height="40">
-            
-        </button>
-        <br>
-        <hr>
-        <nav id="nav">
-            <details>
-            <summary>Hombre</summary>
-            <ul>
-                <li><a href="camisetas.html">Camisetas</a></li>
-                <li><a href="sudaderas.html">Sudaderas</a></li>
-            </ul>
-            </details>
-            <details>
-                    <summary>Mujer</summary>
-                    <ul>
-                        <li><a href="pantalones.html">Pantalones</a></li>
-                    </ul>
-                    </details>
-            <details>
-                    <summary>Niño</summary>
-                    <ul>
-                        <li><a href="Zapatillas.html">Zapatillas</a></li>
-                    </ul>
-            </details>
-        </nav>
+    <header><!--Logo y  apartado registrarse o iniciar sesion, carrito compra.-->
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><a href="index.html"><img src="img/logo.png"></a></label>
         
+        <nav>
+            <ul class="menu">
+                <li><a href="hombre.html" class="btn">Hombre</a></li>
+                <li><a href="mujer.html" class="btn">Mujer</a></li>
+                <li><a href="niño.html" class="btn">Niño</a></li>
+                <li><a href="Zapatillas.html" class="btn">Zapatillas</a></li>
+                <li><a href="user.html" class="btn"><img src="img/user.png"></a></li>
+                <li><a href="carrito.html" class="btn"><img src="img/carrito.png"></a></li>
+            </ul>
+        </nav>        
     </header>
     
     <main>
-        <h2>Destacados</h2>
-            <article>
-                <a href="destacados.html"><img src="img/ztKuryiIhexzDNw5LsjMV5.jpg" alt="Destacados" border="3px" width="500" height="250"></a>
-                <p><b>Camisetas 25% DESCUENTO!</b></p>
-            </article>
-            <article>
-                <a href="sudaderas.html"><img src="img/10-sudaderas-para-combatir-el-frio-con-estilo-p-720x420.jpg" alt="Destacados" border="3px" width="500" height="250"></a>
+        <h1>Las fotos se cambiarán por otras sin copyright</h1>
+        <ul class="main">
+            <li><a href="destacados.html"><img src="img/main1.webp" alt="Destacados" width="500" height="500"></a></li>
+            <li><a href="hombre.html"><img src="img/IMG_2184.JPEG" width="450" height="450"></a></li>
+        </ul>
+        <ul class="main">
+            <li><a href="hombre.html"><img src="img/hombre.jpg" width="235" height="455"></a></li>
+            <li><a href="mujer.html"><img src="img/mujer.jpg" width="215" height="455"></a></li>
+            <li><a href="niño.html"><img src="img/niño.jpg" width="215" height="455"></a></li>
+            <li></li>
+        </ul>
+                <p class="title"><b>Camisetas 25% DESCUENTO!</b></p>
+            
+            <article class="mainimg">
+                <a href="sudaderas.html"><img src="img/ztKuryiIhexzDNw5LsjMV5.jpg" alt="Destacados" border="3px" width="500" height="250"></a>
                 <p><b>Nuevas SUDADERAS!</b></p>
             </article>
             
-            <article id="FQA">
-                <a href="contacto.html"><img src="img/logo.png" alt="Contacto">FQA</a>
-            </article>
+            
 
     </main>
     <hr>
     <footer>
         <a href="contacto.html">Contacto</a>
+        <article class="mainimg">
+            <img src="img/logo.png">
+        </article>
     </footer>
 </body>
 </html>
