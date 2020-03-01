@@ -121,18 +121,18 @@ ul.main{
     width: 100%;
     transition: width .3s;
 }
-img.pepe3 {
+.pepe3 {
     width: 100px;
     height: 100px;
-    padding-left: 700px;
+    float: right;
 }
-img.pepe2 {
-    padding-left: 500px;
+.pepe2 {
     width: 150px;
     height: 50px;
+    float: center;
 }
-img.pepe1 {
+.pepe1 {
     width: 300px;
     height: 70px;
-    padding-left: 10px;
+    float: left;
 }
